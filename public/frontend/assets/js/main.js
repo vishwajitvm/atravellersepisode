@@ -722,7 +722,8 @@
     /*-----------------------------------
         OFF inspections
     -----------------------------------*/
-    document.addEventListener("contextmenu", (event) => event.preventDefault());
+    // RIGHT CLICK - RIGHTCLICK
+    // document.addEventListener("contextmenu", (event) => event.preventDefault());
     document.onkeydown = function (e) {
         if (event.keyCode == 123) {
             return false;
