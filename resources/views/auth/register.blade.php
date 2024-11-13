@@ -1,60 +1,108 @@
-<x-guest-layout>
-    <x-authentication-card>
-        <x-slot name="logo">
-            <x-authentication-card-logo />
-        </x-slot>
+@extends('website.websitemaster')
+@section('websitespages')
+<!--META DATA-->
+@php
+        //meta keywords
+        $title = "Register" ;
+        $metakeywordname = "AtravellersEpisode Keywords" ;
+        $metakeywordContent = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo consequatur cum sapiente recusandae fugiat a, error veniam quis? Quos, assumenda." ;
 
-        <x-validation-errors class="mb-4" />
+        //meta descriptions
+       $metaDescriptionName = "AtravellersEpisode Description" ;
+       $metaDescriptionContent = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo consequatur cum sapiente recusandae fugiat a, error veniam quis? Quos, assumenda." ;
+@endphp
+<!--META DATA END-->
 
-        <form method="POST" action="{{ route('register') }}">
-            @csrf
+<main>
+    <!-- Login area S t a r t  -->
+    <div class="login-area section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10">
+                    <div class="login-card">
+                        <!-- Logo -->
+                        <div class="logo mb-40">
+                            <a href="index.html" class="mb-30 d-block">
+                                <img src="frontend/assets/images/logo/logo.png" alt="logo" class="changeLogo">
+                            </a>
+                        </div>
+                        <!-- Form -->
+                        <form method="POST" action="{{ route('register') }}">
+                            @csrf
 
-            <div>
-                <x-label for="name" value="{{ __('Name') }}" />
-                <x-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
-            </div>
+                            <div class="contact-form mb-24">
+                                <label class="contact-label">Name </label>
+                                <input class="form-control contact-input" type="text" placeholder="Enter Your Name" id="name" name="name" :value="old('name')" required autofocus autocomplete="name">
+                            </div>
 
-            <div class="mt-4">
-                <x-label for="email" value="{{ __('Email') }}" />
-                <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autocomplete="username" />
-            </div>
+                            <div class="contact-form mb-24">
+                                <label class="contact-label">Email </label>
+                                <input class="form-control contact-input" type="email" placeholder="Email" id="email" name="email" :value="old('email')" required autocomplete="username">
+                            </div>
 
-            <div class="mt-4">
-                <x-label for="password" value="{{ __('Password') }}" />
-                <x-input id="password" class="block mt-1 w-full" type="password" name="password" required autocomplete="new-password" />
-            </div>
+                            <!-- Password -->
+                            <div class="position-relative contact-form mb-24">
+                                <label class="contact-label">Enter Password</label>
+                                <input type="password" class="form-control contact-input password-input"
+                                    placeholder="Enter Password" id="password" name="password" required autocomplete="new-password">
+                                <i class="toggle-password ri-eye-line"></i>
+                            </div>
 
-            <div class="mt-4">
-                <x-label for="password_confirmation" value="{{ __('Confirm Password') }}" />
-                <x-input id="password_confirmation" class="block mt-1 w-full" type="password" name="password_confirmation" required autocomplete="new-password" />
-            </div>
+                            <!-- Password -->
+                            <div class="position-relative contact-form mb-24">
+                                <label class="contact-label">Confirm Password</label>
+                                <input type="password" class="form-control contact-input password-input"
+                                id="password_confirmation" placeholder="Confirm Password" name="password_confirmation" required autocomplete="new-password">
+                                <i class="toggle-password ri-eye-line"></i>
+                            </div>
 
-            @if (Laravel\Jetstream\Jetstream::hasTermsAndPrivacyPolicyFeature())
-                <div class="mt-4">
-                    <x-label for="terms">
-                        <div class="flex items-center">
-                            <x-checkbox name="terms" id="terms" required />
+                            {{-- <a href="javascript:void(0)" class="btn-primary-fill justify-content-center w-100">
+                                <span class="d-flex justify-content-center gap-6">
+                                    <span >Register</span>
+                                </span>
+                            </a> --}}
 
-                            <div class="ms-2">
-                                {!! __('I agree to the :terms_of_service and :privacy_policy', [
-                                        'terms_of_service' => '<a target="_blank" href="'.route('terms.show').'" class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">'.__('Terms of Service').'</a>',
-                                        'privacy_policy' => '<a target="_blank" href="'.route('policy.show').'" class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">'.__('Privacy Policy').'</a>',
-                                ]) !!}
+                            <button type="submit" class="btn-primary-fill justify-content-center w-100">
+                                <span class="d-flex justify-content-center gap-6">
+                                    <span >Register</span>
+                                </span>
+                            </button>
+                        </form>
+
+                        <div class="login-footer mb-20">
+                            <div class="create-account">
+                                <p>
+                                    Already have an account?
+                                    <a href="{{ route('login') }}">
+                                        <span class="text-primary">Login</span>
+                                    </a>
+                                </p>
                             </div>
                         </div>
-                    </x-label>
+
+                        <div class="sign-with">
+                            <p class="text-paragraph">Or Sign in with</p>
+                            <ul class="icon-login-section">
+                                <li class="icon-login">
+                                    <a href="#"><i class="ri-mail-line"></i></a>
+                                </li>
+                                <li class="icon-login">
+                                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                                </li>
+                                <li class="icon-login">
+                                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                                </li>
+                                <li class="icon-login">
+                                    <a href="#"> <i class="ri-linkedin-fill"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            @endif
-
-            <div class="flex items-center justify-end mt-4">
-                <a class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('login') }}">
-                    {{ __('Already registered?') }}
-                </a>
-
-                <x-button class="ms-4">
-                    {{ __('Register') }}
-                </x-button>
             </div>
-        </form>
-    </x-authentication-card>
-</x-guest-layout>
+        </div>
+    </div>
+    <!--/ End-of Login -->
+</main>
+
+@endsection
