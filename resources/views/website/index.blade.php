@@ -308,7 +308,7 @@
                         <div class="swiper-slide">
                             <div class="package-card">
                                 <div class="package-img imgEffect4">
-                                    <a href="tour-details.html">
+                                    <a href="{{ route('tour.kedarnath') }}">
                                         <img src="{{asset('frontend/assets/images/package/package-3.png')}}" alt="travello">
                                     </a>
                                     <div class="image-badge">
@@ -324,7 +324,7 @@
                                         <div class="name">Kedarnath Ji Yatra, Uttrakhand</div>
                                     </div>
                                     <h4 class="area-name">
-                                        <a href="tour-details.html">Kedarnath Ji Yatra</a>
+                                        <a href="{{ route('tour.kedarnath') }}">Kedarnath Ji Yatra</a>
                                     </h4>
                                     <div class="packages-person mb-16">
                                         <div class="count">
@@ -628,7 +628,7 @@
             <div class="row position-relative z-10">
                 <div class="col-12 text-center">
                     <div class="section-button d-inline-block">
-                        <a href="tour-list.html">
+                        <a href="{{ route('tour-package') }}">
                             <div class="btn-primary-icon-sm border-radius-20">
                                 <p class="pera">View All Tour</p>
                                 <i class="ri-arrow-right-up-line"></i>
