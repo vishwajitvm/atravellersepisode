@@ -29,12 +29,13 @@
                 <div class="col-xl-12">
                     <div class="hero-caption-three position-relative z-3">
                         <h4 class="title wow fadeInUp" data-wow-delay="0.0s">
-                            Plan  with atravllersepisodes to dream locations in just a click!
+                            Welcome to <b>ATravellersEpisode</b> <br>
+                            Pack your bags and check that trek off your bucket list today!
                         </h4>
                         <p class="pera wow fadeInUp" data-wow-delay="0.1s">
-                            Travel is a transformative and enriching experience that
-                            allows individuals to explore new destinations, cultures, and
-                            landscapes
+                            <b> Winter  are here and so is the trekking season.❄️ </b> <br>
+                            Treks ranging from the beautiful valleys of Kashmir to the magnificent mountains of Himachal to the land of gods Uttrakhand and the mesmerizing sights of the East.
+
                         </p>
                     </div>
                     <div class="hero-footer position-relative z-3 wow fadeInUp" data-wow-delay="0.3s">
@@ -68,480 +69,116 @@
     <!--/ End-of Hero-->
 
     <!-- Plan area S t a r t -->
-    <section class="plan-area-three">
+    <section class="plan-area">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="plan-section-three plan-shadow">
-                        <div class="choose-plan-nav">
-
-                            <!-- Buttons Type Select -->
-                            <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                <li class="nav-item" role="presentation">
-                                    <button class="plan-link active" id="tour-tab" data-bs-toggle="tab"
-                                        data-bs-target="#tour" type="button" role="tab" aria-controls="tour"
-                                        aria-selected="true">
-                                        <i class="ri-ship-line"></i> Tour
-                                    </button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="plan-link" id="book-tab" data-bs-toggle="tab" data-bs-target="#book"
-                                        type="button" role="tab" aria-controls="book" aria-selected="false">
-                                        <i class="ri-flight-takeoff-fill"></i> Book
-                                    </button>
-                                </li>
-                            </ul>
-                            <!-- / End-of Buttons -->
-
-                            <!-- Tab Search Contents -->
-                            <div class="tab-content" id="tourTab">
-                                <div class="tab-pane fade show active" id="tour" role="tabpanel" aria-labelledby="tour-tab">
-                                    <div class="d-flex gap-16 flex-wrap mb-26">
-                                        <label class="one-way-label">
-                                            <input class="one-way-input" type="radio" name="radio">
-                                            <span class="circle"></span>
-                                            <span class="radio-text">One Way</span>
-                                        </label>
-                                        <label class="round-trip-label">
-                                            <input class="round-trip-input" type="radio" name="radio" checked>
-                                            <span class="circle"></span>
-                                            <span class="radio-text">Round Trip</span>
-                                        </label>
-                                    </div>
-                                    <div class="row g-4 justify-content-end">
-                                        <div class="col-xl-5 col-lg-12">
-                                            <div class="destination-flex">
-                                                <div class="select-dropdown-section">
-                                                    <div class="d-flex gap-10 align-items-center">
-                                                        <div class="destination-dropdown-two"></div>
-                                                    </div>
-                                                    <div class="destination-result line-clamp-1">
-                                                        Istanbul Airport...
-                                                    </div>
-                                                </div>
-                                                <div class="select-dropdown-section">
-                                                    <div class="d-flex gap-10 align-items-center">
-                                                        <div class="destination-dropdown-three"></div>
-                                                    </div>
-                                                    <div class="destination-result-three line-clamp-1">
-                                                        Istanbul Airport...
-                                                    </div>
-                                                </div>
-                                                <div class="swap-icon">
-                                                    <i class="ri-arrow-left-right-line"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-5 col-lg-12">
-                                            <div class="destination-flex">
-                                                <div class="dropdown-section">
-                                                    <div class="d-flex gap-10 align-items-center">
-                                                        <div class="custom-date-three">
-                                                            <h4 class="month-title month-result">February</h4>
-                                                            <div class="year-title year-result">
-                                                                Tuesday, 6, 2023
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="dropdown-section">
-                                                    <div class="d-flex gap-10 align-items-center">
-                                                        <div class="custom-date-three">
-                                                            <h4 class="month-title text-right month-result-two">
-                                                                March
-                                                            </h4>
-                                                            <div class="year-title text-right year-result-two">
-                                                                Tuesday, 6, 2023
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="swap-icon">
-                                                    <i class="ri-calendar-2-line"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-2 col-lg-3">
-                                            <div class="sign-btn text-right">
-                                                <a href="tour-list.html" class="btn-secondary-lg w-100 text-center">
-                                                    <i   class="ri-search-line mr-10 font-20"></i> Search Plan
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="book" role="tabpanel" aria-labelledby="book-tab">
-                                    <div class="d-flex gap-16 flex-wrap mb-26">
-                                        <label class="one-way-label">
-                                            <input class="one-way-input" type="radio" name="radio">
-                                            <span class="circle"></span>
-                                            <span class="radio-text">One Way</span>
-                                        </label>
-                                        <label class="round-trip-label">
-                                            <input class="round-trip-input" type="radio" name="radio">
-                                            <span class="circle"></span>
-                                            <span class="radio-text">Round Trip</span>
-                                        </label>
-                                    </div>
-                                    <div class="row g-4 justify-content-end">
-                                        <div class="col-xl-5 col-lg-12">
-                                            <div class="destination-flex">
-                                                <div class="select-dropdown-section">
-                                                    <div class="d-flex gap-10 align-items-center">
-                                                        <div class="destination-dropdown-two"></div>
-                                                    </div>
-                                                    <div class="destination-result line-clamp-1">
-                                                        Istanbul Airport...
-                                                    </div>
-                                                </div>
-                                                <div class="select-dropdown-section">
-                                                    <div class="d-flex gap-10 align-items-center">
-                                                        <div class="destination-dropdown-three"></div>
-                                                    </div>
-                                                    <div class="destination-result-three line-clamp-1">
-                                                        Istanbul Airport...
-                                                    </div>
-                                                </div>
-                                                <div class="swap-icon">
-                                                    <i class="ri-arrow-left-right-line"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-5 col-lg-12">
-                                            <div class="destination-flex">
-                                                <div class="dropdown-section">
-                                                    <div class="d-flex gap-10 align-items-center">
-                                                        <div class="custom-date-three">
-                                                            <h4 class="month-title month-result">February</h4>
-                                                            <div class="year-title year-result">
-                                                                Tuesday, 6, 2023
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="dropdown-section">
-                                                    <div class="d-flex gap-10 align-items-center">
-                                                        <div class="custom-date-three">
-                                                            <h4 class="month-title text-right month-result-two">
-                                                                March
-                                                            </h4>
-                                                            <div class="year-title text-right year-result-two">
-                                                                Tuesday, 6, 2023
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="swap-icon">
-                                                    <i class="ri-calendar-2-line"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-2 col-lg-3">
-                                            <div class="sign-btn">
-                                                <a href="tour-list.html" class="btn-secondary-lg w-100 text-center">
-                                                    <i class="ri-search-line mr-10 font-20"></i> Search Plan
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+            <div class="plan-section plan-shadow">
+                <div class="select-dropdown-section">
+                    <div class="d-flex gap-10 align-items-center">
+                        <i class="ri-map-pin-line"></i>
+                        <h4 class="select2-title">Destination</h4>
+                    </div>
+                    <select class="destination-dropdown">
+                        <option value="1">Sydney, Australia</option>
+                        <option value="2">USA, Turkish </option>
+                        <option value="3">Chittagong, Turkish </option>
+                    </select>
+                </div>
+                <div class="divider plan-divider d-none d-lg-block"></div>
+                <div class="select-dropdown-section">
+                    <div class="d-flex gap-10 align-items-center">
+                        <i class="ri-flight-takeoff-fill"></i>
+                        <h4 class="select2-title">Tour Type</h4>
+                    </div>
+                    <select class="destination-dropdown">
+                        <option value="1">Booking Type</option>
+                        <option value="2">Advance Type</option>
+                        <option value="3">Pre-book Type</option>
+                    </select>
+                </div>
+                <div class="divider plan-divider d-none d-lg-block"></div>
+                <div class="dropdown-section">
+                    <div class="d-flex gap-10 align-items-center">
+                        <i class="ri-time-line"></i>
+                        <div class="custom-dropdown custom-date">
+                            <h4 class="title">Date From</h4>
+                            <div class="arrow">
+                                <i class="ri-arrow-down-s-line"></i>
                             </div>
-                            <!-- / End-of Search Contents -->
                         </div>
                     </div>
+                    <div class="date-result">01/12/2023</div>
+                </div>
+                <div class="divider plan-divider d-none d-lg-block"></div>
+                <div class="dropdown-section position-relative user-picker-dropdown">
+                    <div class="d-flex gap-10 align-items-center">
+                        <i class="ri-user-line"></i>
+                        <div class="custom-dropdown">
+                            <h4 class="title">Guests</h4>
+                            <div class="arrow">
+                                <i class="ri-arrow-down-s-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-result">02</div>
+                    <div class="user-picker dropdown-shadow">
+                        <div class="user-category">
+                            <div class="category-name">
+                                <h4 class="title">Adults</h4>
+                                <p class="pera">12years and above</p>
+                            </div>
+                            <div class="qty-container">
+                                <button class="qty-btn-minus mr-1" type="button">
+                                    <i class="ri-subtract-fill"></i>
+                                </button>
+                                <input type="text" name="qty" value="0" class="input-qty input-rounded">
+                                <button class="qty-btn-plus ml-1">
+                                    <i class="ri-add-fill"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="user-category">
+                            <div class="category-name">
+                                <h4 class="title">Children</h4>
+                                <p class="pera">2-11 years</p>
+                            </div>
+                            <div class="qty-container">
+                                <button class="qty-btn-minus mr-1" type="button">
+                                    <i class="ri-subtract-fill"></i>
+                                </button>
+                                <input type="text" name="qty" value="0" class="input-qty input-rounded">
+                                <button class="qty-btn-plus ml-1">
+                                    <i class="ri-add-fill"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="user-category">
+                            <div class="category-name">
+                                <h4 class="title">infant</h4>
+                                <p class="pera">belwo 2 years</p>
+                            </div>
+                            <div class="qty-container">
+                                <button class="qty-btn-minus mr-1" type="button">
+                                    <i class="ri-subtract-fill"></i>
+                                </button>
+                                <input type="text" name="qty" value="0" class="input-qty input-rounded">
+                                <button class="qty-btn-plus ml-1" type="button">
+                                    <i class="ri-add-fill"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="btn-section">
+                            <a href="javascript:void(0)" class="done-btn">Done</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sign-btn">
+                    <a href="tour-list.html" class="btn-secondary-lg">Search Plan</a>
                 </div>
             </div>
         </div>
     </section>
     <!--/ End-of Plan-->
 
-    <!-- Special area S t a r t -->
-    <section class="special-area section-padding2">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-7 col-lg-7">
-                    <div class="section-title mx-430 mx-auto text-center">
-                        <span class="highlights fancy-font font-400">special offers</span>
-                        <h4 class="title">
-                            Winter Our Big Offers to Inspire You
-                        </h4>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-6 col-md-6">
-                    <a href="tour-list.html" class="offer-banner imgEffect4 wow fadeInLeft" data-wow-delay="0.0s">
-                        <img src="{{asset('frontend/assets/images/gallery/offercard-1.jpg')}}" alt="travello">
-                        <div class="offer-content">
-                            <p class="highlights-text">Save up to</p>
-                            <h4 class="title">50%</h4>
-                            <p class="pera">Let’s Explore The World</p>
-                            <div class="location">
-                                <i class="ri-map-pin-line"></i>
-                                <p class="name">Bangkok, Thailand</p>
-                            </div>
-                            <div class="btn-secondary-sm radius-30"> Booking Now </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <a href="tour-list.html" class="offer-banner imgEffect4 wow fadeInRight" data-wow-delay="0.0s">
-                        <img src="{{asset('frontend/assets/images/gallery/offercard-2.jpg')}}" alt="travello">
-                        <div class="offer-content-two">
-                            <h4 class="title">Nearby Hotel</h4>
-                            <p class="pera">
-                                Up to <span class="highlights-text">50%</span> Off The Best
-                                Hotels Near
-                            </p>
-                            <div class="location">
-                                <i class="ri-map-pin-line"></i>
-                                <p class="name">Bangkok, Thailand</p>
-                            </div>
-                            <div class="btn-secondary-sm radius-30"> Booking Now </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--/ End-of special-->
-
-    <!-- Trip area S t a r t -->
-    <section class="special-area">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-7 col-lg-7">
-                    <div class="section-title mx-430 mx-auto text-center">
-                        <span class="highlights fancy-font font-400">Enjoy Trip</span>
-                        <h4 class="title">
-                            Top Domestic & International Tour
-                        </h4>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-
-                    <!-- Trip Buttons -->
-                    <ul class="nav nav-pills trip-pills" id="pills-tab" role="tablist">
-                        <li class="nav-item trip-item" role="presentation">
-                            <button class="nav-link trip-nav active" id="pills-domestic-tab" data-bs-toggle="pill"
-                                data-bs-target="#pills-domestic" type="button" role="tab" aria-controls="pills-domestic"
-                                aria-selected="true">
-                                Domestic
-                            </button>
-                        </li>
-                        <li class="nav-item trip-item" role="presentation">
-                            <button class="nav-link trip-nav" id="pills-international-tab" data-bs-toggle="pill"
-                                data-bs-target="#pills-international" type="button" role="tab"
-                                aria-controls="pills-international" aria-selected="false">
-                                International
-                            </button>
-                        </li>
-                    </ul>
-                    <!-- / End-of Trip Buttons -->
-
-                    <!-- Tab Contents -->
-                    <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-domestic" role="tabpanel"
-                            aria-labelledby="pills-domestic-tab">
-                            <div class="row g-4">
-                                <div class="col-xl-4 col-md-6">
-                                    <a href="tour-details.html" class="trip-card">
-                                        <div class="from-flex">
-                                            <h4 class="from-title">USA</h4>
-                                            <p class="from-pera line-clamp-1">Istanbul Airport...</p>
-                                        </div>
-                                        <div class="trip-icon-flex">
-                                            <div class="trip-icon"><i class="ri-flight-takeoff-fill"></i></div>
-                                        </div>
-                                        <div class="from-flex">
-                                            <h4 class="from-title">Sylhet</h4>
-                                            <p class="from-pera line-clamp-1">Osman Internatin...</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-xl-4 col-md-6">
-                                    <a href="tour-details.html" class="trip-card">
-                                        <div class="from-flex">
-                                            <h4 class="from-title">USA</h4>
-                                            <p class="from-pera line-clamp-1">Istanbul Airport...</p>
-                                        </div>
-                                        <div class="trip-icon-flex">
-                                            <div class="trip-icon"><i class="ri-flight-takeoff-fill"></i></div>
-                                        </div>
-                                        <div class="from-flex">
-                                            <h4 class="from-title">kolkata</h4>
-                                            <p class="from-pera line-clamp-1">kolkata Airport</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-xl-4 col-md-6">
-                                    <a href="tour-details.html" class="trip-card">
-                                        <div class="from-flex">
-                                            <h4 class="from-title">USA</h4>
-                                            <p class="from-pera line-clamp-1">Istanbul Airport...</p>
-                                        </div>
-                                        <div class="trip-icon-flex">
-                                            <div class="trip-icon"><i class="ri-flight-takeoff-fill"></i></div>
-                                        </div>
-                                        <div class="from-flex">
-                                            <h4 class="from-title">india</h4>
-                                            <p class="from-pera line-clamp-1">Shah Amanat Inter...</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-xl-4 col-md-6">
-                                    <a href="tour-details.html" class="trip-card">
-                                        <div class="from-flex">
-                                            <h4 class="from-title">USA</h4>
-                                            <p class="from-pera line-clamp-1">Istanbul Airport...</p>
-                                        </div>
-                                        <div class="trip-icon-flex">
-                                            <div class="trip-icon"><i class="ri-flight-takeoff-fill"></i></div>
-                                        </div>
-                                        <div class="from-flex">
-                                            <h4 class="from-title">india</h4>
-                                            <p class="from-pera line-clamp-1">Shah Amanat Inter...</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-xl-4 col-md-6">
-                                    <a href="tour-details.html" class="trip-card">
-                                        <div class="from-flex">
-                                            <h4 class="from-title">USA</h4>
-                                            <p class="from-pera line-clamp-1">Istanbul Airport...</p>
-                                        </div>
-                                        <div class="trip-icon-flex">
-                                            <div class="trip-icon"><i class="ri-flight-takeoff-fill"></i></div>
-                                        </div>
-                                        <div class="from-flex">
-                                            <h4 class="from-title">canada</h4>
-                                            <p class="from-pera line-clamp-1">canada Airport</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-xl-4 col-md-6">
-                                    <a href="tour-details.html" class="trip-card">
-                                        <div class="from-flex">
-                                            <h4 class="from-title">USA</h4>
-                                            <p class="from-pera line-clamp-1">Istanbul Airport...</p>
-                                        </div>
-                                        <div class="trip-icon-flex">
-                                            <div class="trip-icon"><i class="ri-flight-takeoff-fill"></i></div>
-                                        </div>
-                                        <div class="from-flex">
-                                            <h4 class="from-title">kolkata</h4>
-                                            <p class="from-pera line-clamp-1">kolkata Airport</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="pills-international" role="tabpanel"
-                            aria-labelledby="pills-international-tab">
-                            <div class="row g-4">
-                                <div class="col-xl-4 col-md-6">
-                                    <a href="tour-details.html" class="trip-card">
-                                        <div class="from-flex">
-                                            <h4 class="from-title">USA</h4>
-                                            <p class="from-pera line-clamp-1">Istanbul Airport...</p>
-                                        </div>
-                                        <div class="trip-icon-flex">
-                                            <div class="trip-icon"><i class="ri-flight-takeoff-fill"></i></div>
-                                        </div>
-                                        <div class="from-flex">
-                                            <h4 class="from-title">Australia</h4>
-                                            <p class="from-pera line-clamp-1">
-                                                Australia Internatin...
-                                            </p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-xl-4 col-md-6">
-                                    <a href="tour-details.html" class="trip-card">
-                                        <div class="from-flex">
-                                            <h4 class="from-title">USA</h4>
-                                            <p class="from-pera line-clamp-1">Istanbul Airport...</p>
-                                        </div>
-                                        <div class="trip-icon-flex">
-                                            <div class="trip-icon"><i class="ri-flight-takeoff-fill"></i></div>
-                                        </div>
-                                        <div class="from-flex">
-                                            <h4 class="from-title">Usa</h4>
-                                            <p class="from-pera line-clamp-1">Usa Airport</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-xl-4 col-md-6">
-                                    <a href="tour-details.html" class="trip-card">
-                                        <div class="from-flex">
-                                            <h4 class="from-title">USA</h4>
-                                            <p class="from-pera line-clamp-1">Istanbul Airport...</p>
-                                        </div>
-                                        <div class="trip-icon-flex">
-                                            <div class="trip-icon"><i class="ri-flight-takeoff-fill"></i></div>
-                                        </div>
-                                        <div class="from-flex">
-                                            <h4 class="from-title">Japan</h4>
-                                            <p class="from-pera line-clamp-1">Narita Inter...</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-xl-4 col-md-6">
-                                    <a href="tour-details.html" class="trip-card">
-                                        <div class="from-flex">
-                                            <h4 class="from-title">USA</h4>
-                                            <p class="from-pera line-clamp-1">Istanbul Airport...</p>
-                                        </div>
-                                        <div class="trip-icon-flex">
-                                            <div class="trip-icon"><i class="ri-flight-takeoff-fill"></i></div>
-                                        </div>
-                                        <div class="from-flex">
-                                            <h4 class="from-title">Hongkok</h4>
-                                            <p class="from-pera line-clamp-1">Hongkok Inter...</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-xl-4 col-md-6">
-                                    <a href="tour-details.html" class="trip-card">
-                                        <div class="from-flex">
-                                            <h4 class="from-title">USA</h4>
-                                            <p class="from-pera line-clamp-1">Istanbul Airport...</p>
-                                        </div>
-                                        <div class="trip-icon-flex">
-                                            <div class="trip-icon"><i class="ri-flight-takeoff-fill"></i></div>
-                                        </div>
-                                        <div class="from-flex">
-                                            <h4 class="from-title">Japan</h4>
-                                            <p class="from-pera line-clamp-1">Narita Inter...</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-xl-4 col-md-6">
-                                    <a href="tour-details.html" class="trip-card">
-                                        <div class="from-flex">
-                                            <h4 class="from-title">USA</h4>
-                                            <p class="from-pera line-clamp-1">Istanbul Airport...</p>
-                                        </div>
-                                        <div class="trip-icon-flex">
-                                            <div class="trip-icon"><i class="ri-flight-takeoff-fill"></i></div>
-                                        </div>
-                                        <div class="from-flex">
-                                            <h4 class="from-title">Canada</h4>
-                                            <p class="from-pera line-clamp-1">Canada Airport</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- / End-of Tab contents -->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--/ End-of trip-->
 
     <!-- About Us area S t a r t -->
     <section class="about-area">
@@ -551,14 +188,10 @@
                     <div class="section-title mx-430 mb-30 w-md-100">
                         <span class="highlights fancy-font font-400">About Us</span>
                         <h4 class="title">
-                            Get The Best Travel Experience With Travello
+                            Discover Unforgettable Adventures with ATravellersEpisode!
                         </h4>
                         <p class="pera">
-                            Travel is a transformative and enriching experience that
-                            allows individuals to explore new destinations, cultures, and
-                            landscapes. It is a fundamental human activity that has been
-                            practiced for centuries and continues to be a source of joy,
-                            learning, and personal growth.
+                            At ATravellersEpisode, we’re committed to crafting personalized and memorable travel experiences. With deep industry expertise and a network of trusted partners, we handle every detail to make your journey seamless and exceptional. From mountain treks to serene escapes, we bring your travel dreams to life. Reach out today for a free consultation, and let us take you on an adventure beyond expectations!
                         </p>
                         <p class="pera">
                             Travel is a transformative and enriching experience that
@@ -619,7 +252,7 @@
                     <div class="section-title mx-430 mx-auto text-center">
                         <span class="highlights fancy-font font-400">Features Tour</span>
                         <h4 class="title">
-                            Most Favorite Tour Place in The World
+                            Most Favorite Tour Place in The India
                         </h4>
                     </div>
                 </div>
@@ -643,25 +276,25 @@
                                 <div class="package-content">
                                     <div class="location">
                                         <i class="ri-map-pin-line"></i>
-                                        <div class="name">Bangkok, Thailand</div>
+                                        <div class="name">Kuari Pass Trek, Uttrakhand</div>
                                     </div>
                                     <h4 class="area-name">
-                                        <a href="tour-details.html">Dusitd2 Samyan Bangkok</a>
+                                        <a href="tour-details.html">Kuari Pass Trek</a>
                                     </h4>
                                     <div class="packages-person mb-16">
                                         <div class="count">
                                             <i class="ri-time-line"></i>
-                                            <p class="pera">3 Days 2 Night</p>
+                                            <p class="pera">6 Days 5 Night</p>
                                         </div>
                                         <div class="count">
                                             <i class="ri-user-line"></i>
-                                            <p class="pera">2 Person</p>
+                                            <p class="pera">1 Person</p>
                                         </div>
                                     </div>
                                     <div class="price-review mb-0">
                                         <div class="d-flex gap-10">
                                             <p class="light-pera">From</p>
-                                            <p class="pera">$95</p>
+                                            <p class="pera">9999</p>
                                         </div>
                                         <div class="rating">
                                             <i class="ri-star-s-fill"></i>
@@ -671,6 +304,7 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="swiper-slide">
                             <div class="package-card">
                                 <div class="package-img imgEffect4">
@@ -687,25 +321,25 @@
                                 <div class="package-content">
                                     <div class="location">
                                         <i class="ri-map-pin-line"></i>
-                                        <div class="name">Bangkok, Thailand</div>
+                                        <div class="name">Kedarnath Ji Yatra, Uttrakhand</div>
                                     </div>
                                     <h4 class="area-name">
-                                        <a href="tour-details.html">Dusitd2 Samyan Bangkok</a>
+                                        <a href="tour-details.html">Kedarnath Ji Yatra</a>
                                     </h4>
                                     <div class="packages-person mb-16">
                                         <div class="count">
                                             <i class="ri-time-line"></i>
-                                            <p class="pera">3 Days 2 Night</p>
+                                            <p class="pera">5 Days 4 Night</p>
                                         </div>
                                         <div class="count">
                                             <i class="ri-user-line"></i>
-                                            <p class="pera">2 Person</p>
+                                            <p class="pera">1 Person</p>
                                         </div>
                                     </div>
                                     <div class="price-review mb-0">
                                         <div class="d-flex gap-10">
                                             <p class="light-pera">From</p>
-                                            <p class="pera">$95</p>
+                                            <p class="pera">9999</p>
                                         </div>
                                         <div class="rating">
                                             <i class="ri-star-s-fill"></i>
@@ -731,25 +365,26 @@
                                 <div class="package-content">
                                     <div class="location">
                                         <i class="ri-map-pin-line"></i>
-                                        <div class="name">Bangkok, Thailand</div>
+                                        <div class="name">Kedarkantha Trek, Sankri</div>
                                     </div>
                                     <h4 class="area-name">
-                                        <a href="tour-details.html">Dusitd2 Samyan Bangkok</a>
+                                        <a href="tour-details.html">
+                                            Kedarkantha Trek</a>
                                     </h4>
                                     <div class="packages-person mb-16">
                                         <div class="count">
                                             <i class="ri-time-line"></i>
-                                            <p class="pera">3 Days 2 Night</p>
+                                            <p class="pera">5 Days 4 Night</p>
                                         </div>
                                         <div class="count">
                                             <i class="ri-user-line"></i>
-                                            <p class="pera">2 Person</p>
+                                            <p class="pera">1 Person</p>
                                         </div>
                                     </div>
                                     <div class="price-review mb-0">
                                         <div class="d-flex gap-10">
                                             <p class="light-pera">From</p>
-                                            <p class="pera">$95</p>
+                                            <p class="pera">10000</p>
                                         </div>
                                         <div class="rating">
                                             <i class="ri-star-s-fill"></i>
@@ -759,6 +394,7 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="swiper-slide">
                             <div class="package-card">
                                 <div class="package-img imgEffect4">
@@ -775,25 +411,25 @@
                                 <div class="package-content">
                                     <div class="location">
                                         <i class="ri-map-pin-line"></i>
-                                        <div class="name">Bangkok, Thailand</div>
+                                        <div class="name">Har Ki Dhun Trek,Sankri</div>
                                     </div>
                                     <h4 class="area-name">
-                                        <a href="tour-details.html">Dusitd2 Samyan Bangkok</a>
+                                        <a href="tour-details.html">Har Ki Dhun Trek</a>
                                     </h4>
                                     <div class="packages-person mb-16">
                                         <div class="count">
                                             <i class="ri-time-line"></i>
-                                            <p class="pera">3 Days 2 Night</p>
+                                            <p class="pera">7 Days 6 Night</p>
                                         </div>
                                         <div class="count">
                                             <i class="ri-user-line"></i>
-                                            <p class="pera">2 Person</p>
+                                            <p class="pera">1 Person</p>
                                         </div>
                                     </div>
                                     <div class="price-review mb-0">
                                         <div class="d-flex gap-10">
                                             <p class="light-pera">From</p>
-                                            <p class="pera">$95</p>
+                                            <p class="pera">12000</p>
                                         </div>
                                         <div class="rating">
                                             <i class="ri-star-s-fill"></i>
@@ -819,25 +455,25 @@
                                 <div class="package-content">
                                     <div class="location">
                                         <i class="ri-map-pin-line"></i>
-                                        <div class="name">Bangkok, Thailand</div>
+                                        <div class="name">Rupin Supin Trek, Uttrakhand</div>
                                     </div>
                                     <h4 class="area-name">
-                                        <a href="tour-details.html">Dusitd2 Samyan Bangkok</a>
+                                        <a href="tour-details.html">Rupin Supin Trek</a>
                                     </h4>
                                     <div class="packages-person mb-16">
                                         <div class="count">
                                             <i class="ri-time-line"></i>
-                                            <p class="pera">3 Days 2 Night</p>
+                                            <p class="pera">6 Days 5 Night</p>
                                         </div>
                                         <div class="count">
                                             <i class="ri-user-line"></i>
-                                            <p class="pera">2 Person</p>
+                                            <p class="pera">1 Person</p>
                                         </div>
                                     </div>
                                     <div class="price-review mb-0">
                                         <div class="d-flex gap-10">
                                             <p class="light-pera">From</p>
-                                            <p class="pera">$95</p>
+                                            <p class="pera">12500</p>
                                         </div>
                                         <div class="rating">
                                             <i class="ri-star-s-fill"></i>
@@ -863,10 +499,11 @@
                                 <div class="package-content">
                                     <div class="location">
                                         <i class="ri-map-pin-line"></i>
-                                        <div class="name">Bangkok, Thailand</div>
+                                        <div class="name">Dyara Bughyal Trek, Uttrakhand</div>
                                     </div>
                                     <h4 class="area-name">
-                                        <a href="tour-details.html">Dusitd2 Samyan Bangkok</a>
+                                        <a href="tour-details.html">Dyara Bughyal Trek
+                                            ​</a>
                                     </h4>
                                     <div class="packages-person mb-16">
                                         <div class="count">
@@ -875,13 +512,13 @@
                                         </div>
                                         <div class="count">
                                             <i class="ri-user-line"></i>
-                                            <p class="pera">2 Person</p>
+                                            <p class="pera">1 Person</p>
                                         </div>
                                     </div>
                                     <div class="price-review mb-0">
                                         <div class="d-flex gap-10">
                                             <p class="light-pera">From</p>
-                                            <p class="pera">$95</p>
+                                            <p class="pera">12000</p>
                                         </div>
                                         <div class="rating">
                                             <i class="ri-star-s-fill"></i>
@@ -907,10 +544,10 @@
                                 <div class="package-content">
                                     <div class="location">
                                         <i class="ri-map-pin-line"></i>
-                                        <div class="name">Bangkok, Thailand</div>
+                                        <div class="name">Nag Tibba Trek, Sari Village</div>
                                     </div>
                                     <h4 class="area-name">
-                                        <a href="tour-details.html">Dusitd2 Samyan Bangkok</a>
+                                        <a href="tour-details.html">Nag Tibba Trek</a>
                                     </h4>
                                     <div class="packages-person mb-16">
                                         <div class="count">
@@ -919,13 +556,13 @@
                                         </div>
                                         <div class="count">
                                             <i class="ri-user-line"></i>
-                                            <p class="pera">2 Person</p>
+                                            <p class="pera">1 Person</p>
                                         </div>
                                     </div>
                                     <div class="price-review mb-0">
                                         <div class="d-flex gap-10">
                                             <p class="light-pera">From</p>
-                                            <p class="pera">$95</p>
+                                            <p class="pera">4000</p>
                                         </div>
                                         <div class="rating">
                                             <i class="ri-star-s-fill"></i>
@@ -951,25 +588,25 @@
                                 <div class="package-content">
                                     <div class="location">
                                         <i class="ri-map-pin-line"></i>
-                                        <div class="name">Bangkok, Thailand</div>
+                                        <div class="name">Brahmatal Trek, Uttrakhand</div>
                                     </div>
                                     <h4 class="area-name">
-                                        <a href="tour-details.html">Dusitd2 Samyan Bangkok</a>
+                                        <a href="tour-details.html">Brahmatal Trek</a>
                                     </h4>
                                     <div class="packages-person mb-16">
                                         <div class="count">
                                             <i class="ri-time-line"></i>
-                                            <p class="pera">3 Days 2 Night</p>
+                                            <p class="pera">6 Days 5 Night</p>
                                         </div>
                                         <div class="count">
                                             <i class="ri-user-line"></i>
-                                            <p class="pera">2 Person</p>
+                                            <p class="pera">1 Person</p>
                                         </div>
                                     </div>
                                     <div class="price-review mb-0">
                                         <div class="d-flex gap-10">
                                             <p class="light-pera">From</p>
-                                            <p class="pera">$95</p>
+                                            <p class="pera">115000</p>
                                         </div>
                                         <div class="rating">
                                             <i class="ri-star-s-fill"></i>
@@ -1012,7 +649,7 @@
                     <div class="section-title text-center mx-430 mx-auto position-relative">
                         <span class="highlights">Destination List</span>
                         <h4 class="title">
-                            Explore The Beautiful Places Around World
+                            Explore The Beautiful Places Around Himalya
                         </h4>
                     </div>
                 </div>
@@ -1835,230 +1472,7 @@
     </section>
     <!--/ End of News -->
 
-    <!-- Pricing S t a r t -->
-    <section class="pricing-area bottom-padding section-bg-before-two">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-7 col-lg-7">
-                    <div class="section-title text-center mx-605 mx-auto position-relative">
-                        <span class="highlights-primary">Package Pricing Plan</span>
-                        <h4 class=" title">
-                            Simply Choose The Pricing Plan That Fits You Best
-                        </h4>
-                    </div>
-                </div>
-            </div>
-            <div class="position-relative">
-                <div class="row g-4">
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <div class="price-card h-calc wow fadeInUp" data-wow-delay="0.0s">
-                            <div class="price-header">
-                                <div class="d-flex gap-7 mb-2">
-                                    <h4 class="title">Basic</h4>
-                                    <div class="price-badge d-none">popular</div>
-                                </div>
-                                <p class="pera">Best for personal and basic needs</p>
-                            </div>
-                            <div class="price-tag-section">
-                                <div class="price-tag">
-                                    <h4 class="title">$10</h4>
-                                    <p class="pera">One-time payment</p>
-                                </div>
-                            </div>
-                            <ul class="feature-points">
-                                <li class="feature-point">
-                                    <div class="tick-icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p class="pera">20+ Partners</p>
-                                </li>
-                                <li class="feature-point">
-                                    <div class="tick-icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p class="pera">Mass Messaging</p>
-                                </li>
-                                <li class="feature-point">
-                                    <div class="tick-icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p class="pera">Lorem ipsum dolor sit amet</p>
-                                </li>
-                                <li class="feature-point disable">
-                                    <div class="tick-icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p class="pera">Lorem ipsum dolor</p>
-                                </li>
-                                <li class="feature-point disable">
-                                    <div class="tick-icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p class="pera">Online booking engine</p>
-                                </li>
-                                <li class="feature-point disable">
-                                    <div class="tick-icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p class="pera">Business Card Scanner</p>
-                                </li>
-                            </ul>
-                            <div class="button-section">
-                                <a href="payment.html">
-                                    <div class="btn-primary-icon-outline">
-                                        <span class="pera">Try Now</span>
-                                        <i class="ri-arrow-right-up-line"></i>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="imp-note">
-                                <p class="pera">Per month +2% per online Booking</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <div class="price-card h-calc wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="price-header">
-                                <div class="d-flex gap-7 mb-2">
-                                    <h4 class="title">Pro</h4>
-                                    <div class="price-badge">popular</div>
-                                </div>
-                                <p class="pera">Best for personal and basic needs</p>
-                            </div>
-                            <div class="price-tag-section">
-                                <div class="price-tag">
-                                    <h4 class="title">$77</h4>
-                                    <p class="pera">One-time payment</p>
-                                </div>
-                            </div>
-                            <ul class="feature-points">
-                                <li class="feature-point">
-                                    <div class="tick-icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p class="pera">20+ Partners</p>
-                                </li>
-                                <li class="feature-point">
-                                    <div class="tick-icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p class="pera">Mass Messaging</p>
-                                </li>
-                                <li class="feature-point">
-                                    <div class="tick-icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p class="pera">Lorem ipsum dolor sit amet</p>
-                                </li>
-                                <li class="feature-point">
-                                    <div class="tick-icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p class="pera">Lorem ipsum dolor</p>
-                                </li>
-                                <li class="feature-point">
-                                    <div class="tick-icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p class="pera">Online booking engine</p>
-                                </li>
-                                <li class="feature-point disable">
-                                    <div class="tick-icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p class="pera">Business Card Scanner</p>
-                                </li>
-                            </ul>
-                            <div class="button-section">
-                                <a href="payment.html">
-                                    <div class="btn-primary-icon-outline">
-                                        <span class="pera">Try Now</span>
-                                        <i class="ri-arrow-right-up-line"></i>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="imp-note">
-                                <p class="pera">Per month +1.9% per online Booking</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <div class="price-card h-calc wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="price-header">
-                                <div class="d-flex gap-7 mb-2">
-                                    <h4 class="title">Custom</h4>
-                                    <div class="price-badge d-none">popular</div>
-                                </div>
-                                <p class="pera">Best for personal and basic needs</p>
-                            </div>
-                            <ul class="feature-points">
-                                <li class="feature-point">
-                                    <div class="tick-icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p class="pera">Mass Messaging</p>
-                                </li>
-                                <li class="feature-point">
-                                    <div class="tick-icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p class="pera">Lorem ipsum dolor sit amet</p>
-                                </li>
-                                <li class="feature-point">
-                                    <div class="tick-icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p class="pera">Unlimited Everything</p>
-                                </li>
-                                <li class="feature-point">
-                                    <div class="tick-icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p class="pera">Lorem ipsum dolor</p>
-                                </li>
-                                <li class="feature-point">
-                                    <div class="tick-icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p class="pera">Lorem ipsum dolor</p>
-                                </li>
-                                <li class="feature-point">
-                                    <div class="tick-icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p class="pera">Lorem ipsum dolor</p>
-                                </li>
-                                <li class="feature-point">
-                                    <div class="tick-icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p class="pera">Online booking engine</p>
-                                </li>
-                                <li class="feature-point">
-                                    <div class="tick-icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p class="pera">Business Card Scanner</p>
-                                </li>
-                            </ul>
-                            <div class="button-section">
-                                <a href="payment.html">
-                                    <div class="btn-primary-icon-outline">
-                                        <span class="pera">Contact</span>
-                                        <i class="ri-arrow-right-up-line"></i>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="imp-note">
-                                <p class="pera">Please contact anytime</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--/ End of Pricing -->
+  
 </main>
 
 @endsection
