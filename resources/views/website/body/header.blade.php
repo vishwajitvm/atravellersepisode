@@ -1,3 +1,7 @@
+@php
+    $prefix = Request::route()->getprefix() ;
+    $route = Route::current()->getName() ;
+@endphp
 <header class="header-area-three">
     <div class="main-header">
         <!-- Header Top -->
@@ -76,17 +80,17 @@
                                         <ul class="listing" id="navigation">
                                             <li class="single-list">
                                                 <a href="{{ route('homepage') }}"
-                                                    class="single link-active">Home </a>
+                                                    class="single {{ ($route == 'homepage')?'link-active':'' }}">Home </a>
                                                 
                                             </li>
                                             <li class="single-list">
-                                                <a href="about.html" class="single">About</a>
+                                                <a href="{{ route('about') }}" class="single {{ ($route == 'about')?'link-active':'' }}">About</a>
                                             </li>
                                             <li class="single-list">
                                                 <a href="destination.html" class="single">Destination</a>
                                             </li>
                                             <li class="single-list">
-                                                <a href="tour-list.html" class="single">Tour Package</a>
+                                                <a href="{{ route('tour-package') }}" class="single {{ ($route == 'tour-package')?'link-active':'' }}">Tour Package</a>
                                             </li>
                                             
                                             <li class="single-list">
@@ -151,7 +155,7 @@
                                                 <a href="news.html" class="single">News</a>
                                             </li>
                                             <li class="single-list">
-                                                <a href="contact.html" class="single">Contact</a>
+                                                <a href="{{ route('contact') }}" class="single {{ ($route == 'contact')?'link-active':'' }}">Contact</a>
                                             </li>
                                             <li class="d-block d-lg-none">
                                                 <div class="header-right-three pl-15 mt-10">
