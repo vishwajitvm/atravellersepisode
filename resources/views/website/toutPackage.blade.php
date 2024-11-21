@@ -400,7 +400,7 @@
                             <div class="col-xl-4 col-lg-4 col-sm-6">
                                 <div class="package-card">
                                     <div class="package-img imgEffect4">
-                                        <a href="tour-details.html">
+                                        <a href="{{ route('tour.kuari-pass') }}">
                                             <img src="frontend/assets/images/package/package-3.png" alt="travello">
                                         </a>
                                         <div class="image-badge">
@@ -409,26 +409,26 @@
                                     </div>
                                     <div class="package-content">
                                         <h4 class="area-name">
-                                            <a href="tour-details.html">Dusitd2 Samyan Bangkok</a>
+                                            <a href="{{ route('tour.kuari-pass') }}">Kuari Pass, Uttrakahand</a>
                                         </h4>
                                         <div class="location">
                                             <i class="ri-map-pin-line"></i>
-                                            <div class="name">Bangkok, Thailand</div>
+                                            <div class="name">Uttrakahand, India</div>
                                         </div>
                                         <div class="packages-person">
                                             <div class="count">
                                                 <i class="ri-time-line"></i>
-                                                <p class="pera">3 Days 2 Night</p>
+                                                <p class="pera">6 Days 5 Night</p>
                                             </div>
                                             <div class="count">
                                                 <i class="ri-user-line"></i>
-                                                <p class="pera">2 Person</p>
+                                                <p class="pera">1 Person</p>
                                             </div>
                                         </div>
                                         <div class="price-review">
                                             <div class="d-flex gap-10">
                                                 <p class="light-pera">From</p>
-                                                <p class="pera">$95</p>
+                                                <p class="pera">9999</p>
                                             </div>
                                             <div class="rating">
                                                 <i class="ri-star-s-fill"></i>
@@ -441,7 +441,7 @@
                             <div class="col-xl-4 col-lg-4 col-sm-6">
                                 <div class="package-card">
                                     <div class="package-img imgEffect4">
-                                        <a href="tour-details.html">
+                                        <a href="{{ route('tour.kedarkantha') }}">
                                             <img src="frontend/assets/images/package/package-2.png" alt="travello">
                                         </a>
                                         <div class="image-badge">
@@ -450,26 +450,26 @@
                                     </div>
                                     <div class="package-content">
                                         <h4 class="area-name">
-                                            <a href="tour-details.html">Dusitd2 Samyan Bangkok</a>
+                                            <a href="{{ route('tour.kedarkantha') }}">Kedarkantha, Uttrakahand</a>
                                         </h4>
                                         <div class="location">
                                             <i class="ri-map-pin-line"></i>
-                                            <div class="name">Bangkok, Thailand</div>
+                                            <div class="name">Sankri, Uttrakahand</div>
                                         </div>
                                         <div class="packages-person">
                                             <div class="count">
                                                 <i class="ri-time-line"></i>
-                                                <p class="pera">3 Days 2 Night</p>
+                                                <p class="pera">5 Days 4 Night</p>
                                             </div>
                                             <div class="count">
                                                 <i class="ri-user-line"></i>
-                                                <p class="pera">2 Person</p>
+                                                <p class="pera">1 Person</p>
                                             </div>
                                         </div>
                                         <div class="price-review">
                                             <div class="d-flex gap-10">
                                                 <p class="light-pera">From</p>
-                                                <p class="pera">$95</p>
+                                                <p class="pera">10000</p>
                                             </div>
                                             <div class="rating">
                                                 <i class="ri-star-s-fill"></i>
@@ -482,7 +482,7 @@
                             <div class="col-xl-4 col-lg-4 col-sm-6">
                                 <div class="package-card">
                                     <div class="package-img imgEffect4">
-                                        <a href="tour-details.html">
+                                        <a href="{{ route('tour.har-ki-dun') }}">
                                             <img src="frontend/assets/images/package/package-10.jpg" alt="travello">
                                         </a>
                                         <div class="image-badge">
@@ -491,26 +491,26 @@
                                     </div>
                                     <div class="package-content">
                                         <h4 class="area-name">
-                                            <a href="tour-details.html">Dusitd2 Samyan Bangkok</a>
+                                            <a href="{{ route('tour.har-ki-dun') }}">Har Ki Dun, Uttrakahand</a>
                                         </h4>
                                         <div class="location">
                                             <i class="ri-map-pin-line"></i>
-                                            <div class="name">Bangkok, Thailand</div>
+                                            <div class="name">Sankri, Uttrakahand</div>
                                         </div>
                                         <div class="packages-person">
                                             <div class="count">
                                                 <i class="ri-time-line"></i>
-                                                <p class="pera">3 Days 2 Night</p>
+                                                <p class="pera">7 Days 6 Night</p>
                                             </div>
                                             <div class="count">
                                                 <i class="ri-user-line"></i>
-                                                <p class="pera">2 Person</p>
+                                                <p class="pera">1 Person</p>
                                             </div>
                                         </div>
                                         <div class="price-review">
                                             <div class="d-flex gap-10">
                                                 <p class="light-pera">From</p>
-                                                <p class="pera">$95</p>
+                                                <p class="pera">12500</p>
                                             </div>
                                             <div class="rating">
                                                 <i class="ri-star-s-fill"></i>
@@ -523,7 +523,7 @@
                             <div class="col-xl-4 col-lg-4 col-sm-6">
                                 <div class="package-card">
                                     <div class="package-img imgEffect4">
-                                        <a href="tour-details.html">
+                                        <a href="{{ route('tour.rupin-pass') }}">
                                             <img src="frontend/assets/images/package/package-5.jpg" alt="travello">
                                         </a>
                                         <div class="image-badge">
@@ -532,26 +532,26 @@
                                     </div>
                                     <div class="package-content">
                                         <h4 class="area-name">
-                                            <a href="tour-details.html">Dusitd2 Samyan Bangkok</a>
+                                            <a href="{{ route('tour.rupin-pass') }}">Rupin Pass, Uttrakahand</a>
                                         </h4>
                                         <div class="location">
                                             <i class="ri-map-pin-line"></i>
-                                            <div class="name">Bangkok, Thailand</div>
+                                            <div class="name">Uttrakahand, India</div>
                                         </div>
                                         <div class="packages-person">
                                             <div class="count">
                                                 <i class="ri-time-line"></i>
-                                                <p class="pera">3 Days 2 Night</p>
+                                                <p class="pera">6 Days 5 Night</p>
                                             </div>
                                             <div class="count">
                                                 <i class="ri-user-line"></i>
-                                                <p class="pera">2 Person</p>
+                                                <p class="pera">1 Person</p>
                                             </div>
                                         </div>
                                         <div class="price-review">
                                             <div class="d-flex gap-10">
                                                 <p class="light-pera">From</p>
-                                                <p class="pera">$95</p>
+                                                <p class="pera">12500</p>
                                             </div>
                                             <div class="rating">
                                                 <i class="ri-star-s-fill"></i>
@@ -564,7 +564,7 @@
                             <div class="col-xl-4 col-lg-4 col-sm-6">
                                 <div class="package-card">
                                     <div class="package-img imgEffect4">
-                                        <a href="tour-details.html">
+                                        <a href="{{ route('tour.dyara-bugyal') }}">
                                             <img src="frontend/assets/images/package/package-6.jpg" alt="travello">
                                         </a>
                                         <div class="image-badge">
@@ -573,11 +573,11 @@
                                     </div>
                                     <div class="package-content">
                                         <h4 class="area-name">
-                                            <a href="tour-details.html">Dusitd2 Samyan Bangkok</a>
+                                            <a href="{{ route('tour.dyara-bugyal') }}">Dyara Bugyal ,Uttrakahand</a>
                                         </h4>
                                         <div class="location">
                                             <i class="ri-map-pin-line"></i>
-                                            <div class="name">Bangkok, Thailand</div>
+                                            <div class="name">Dyara Bugyal, Uttrakahand</div>
                                         </div>
                                         <div class="packages-person">
                                             <div class="count">
@@ -586,13 +586,13 @@
                                             </div>
                                             <div class="count">
                                                 <i class="ri-user-line"></i>
-                                                <p class="pera">2 Person</p>
+                                                <p class="pera">1 Person</p>
                                             </div>
                                         </div>
                                         <div class="price-review">
                                             <div class="d-flex gap-10">
                                                 <p class="light-pera">From</p>
-                                                <p class="pera">$95</p>
+                                                <p class="pera">12700</p>
                                             </div>
                                             <div class="rating">
                                                 <i class="ri-star-s-fill"></i>
@@ -605,7 +605,7 @@
                             <div class="col-xl-4 col-lg-4 col-sm-6">
                                 <div class="package-card">
                                     <div class="package-img imgEffect4">
-                                        <a href="tour-details.html">
+                                        <a href="{{ route('tour.nag-tibba') }}">
                                             <img src="frontend/assets/images/package/package-7.jpg" alt="travello">
                                         </a>
                                         <div class="image-badge">
@@ -614,11 +614,11 @@
                                     </div>
                                     <div class="package-content">
                                         <h4 class="area-name">
-                                            <a href="tour-details.html">Dusitd2 Samyan Bangkok</a>
+                                            <a href="{{ route('tour.nag-tibba') }}">nag-tibba</a>
                                         </h4>
                                         <div class="location">
                                             <i class="ri-map-pin-line"></i>
-                                            <div class="name">Bangkok, Thailand</div>
+                                            <div class="name">nag-tibba</div>
                                         </div>
                                         <div class="packages-person">
                                             <div class="count">
@@ -627,13 +627,13 @@
                                             </div>
                                             <div class="count">
                                                 <i class="ri-user-line"></i>
-                                                <p class="pera">2 Person</p>
+                                                <p class="pera">1 Person</p>
                                             </div>
                                         </div>
                                         <div class="price-review">
                                             <div class="d-flex gap-10">
                                                 <p class="light-pera">From</p>
-                                                <p class="pera">$95</p>
+                                                <p class="pera">4000</p>
                                             </div>
                                             <div class="rating">
                                                 <i class="ri-star-s-fill"></i>
@@ -646,7 +646,7 @@
                             <div class="col-xl-4 col-lg-4 col-sm-6">
                                 <div class="package-card">
                                     <div class="package-img imgEffect4">
-                                        <a href="tour-details.html">
+                                        <a href="{{ route('tour.bali-pass') }}">
                                             <img src="frontend/assets/images/package/package-8.jpg" alt="travello">
                                         </a>
                                         <div class="image-badge">
@@ -655,26 +655,26 @@
                                     </div>
                                     <div class="package-content">
                                         <h4 class="area-name">
-                                            <a href="tour-details.html">Dusitd2 Samyan Bangkok</a>
+                                            <a href="{{ route('tour.bali-pass') }}">bali-pass</a>
                                         </h4>
                                         <div class="location">
                                             <i class="ri-map-pin-line"></i>
-                                            <div class="name">Bangkok, Thailand</div>
+                                            <div class="name">bali-pass</div>
                                         </div>
                                         <div class="packages-person">
                                             <div class="count">
                                                 <i class="ri-time-line"></i>
-                                                <p class="pera">3 Days 2 Night</p>
+                                                <p class="pera">6 Days 5 Night</p>
                                             </div>
                                             <div class="count">
                                                 <i class="ri-user-line"></i>
-                                                <p class="pera">2 Person</p>
+                                                <p class="pera">1 Person</p>
                                             </div>
                                         </div>
                                         <div class="price-review">
                                             <div class="d-flex gap-10">
                                                 <p class="light-pera">From</p>
-                                                <p class="pera">$95</p>
+                                                <p class="pera">22,499</p>
                                             </div>
                                             <div class="rating">
                                                 <i class="ri-star-s-fill"></i>
@@ -687,7 +687,7 @@
                             <div class="col-xl-4 col-lg-4 col-sm-6">
                                 <div class="package-card">
                                     <div class="package-img imgEffect4">
-                                        <a href="tour-details.html">
+                                        <a href="{{ route('tour.bramha-tal') }}">
                                             <img src="frontend/assets/images/package/package-9.jpg" alt="travello">
                                         </a>
                                         <div class="image-badge">
@@ -696,26 +696,26 @@
                                     </div>
                                     <div class="package-content">
                                         <h4 class="area-name">
-                                            <a href="tour-details.html">Dusitd2 Samyan Bangkok</a>
+                                            <a href="{{ route('tour.bramha-tal') }}">bramha-tal</a>
                                         </h4>
                                         <div class="location">
                                             <i class="ri-map-pin-line"></i>
-                                            <div class="name">Bangkok, Thailand</div>
+                                            <div class="name">bramha-tal</div>
                                         </div>
                                         <div class="packages-person">
                                             <div class="count">
                                                 <i class="ri-time-line"></i>
-                                                <p class="pera">3 Days 2 Night</p>
+                                                <p class="pera">6 Days 5 Night</p>
                                             </div>
                                             <div class="count">
                                                 <i class="ri-user-line"></i>
-                                                <p class="pera">2 Person</p>
+                                                <p class="pera">1 Person</p>
                                             </div>
                                         </div>
                                         <div class="price-review">
                                             <div class="d-flex gap-10">
                                                 <p class="light-pera">From</p>
-                                                <p class="pera">$95</p>
+                                                <p class="pera">11500</p>
                                             </div>
                                             <div class="rating">
                                                 <i class="ri-star-s-fill"></i>
