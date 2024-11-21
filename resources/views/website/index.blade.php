@@ -172,7 +172,7 @@
                     </div>
                 </div>
                 <div class="sign-btn">
-                    <a href="tour-list.html" class="btn-secondary-lg">Search Plan</a>
+                    <a href="{{ route('tour-package') }}" class="btn-secondary-lg">Search Plan</a>
                 </div>
             </div>
         </div>

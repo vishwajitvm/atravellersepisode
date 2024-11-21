@@ -29,7 +29,7 @@
                                 <ul class="listing">
                                     <li class="single-lsit"><a href="faq.html">Faq</a></li>
                                     <li class="single-lsit">
-                                        <a href="tour-list.html">Tour Listings</a>
+                                        <a href="{{ route('tour-package') }}">Tour Listings</a>
                                     </li>
                                     <li class="single-lsit">
                                         <a href="destination.html">Destination</a>
@@ -43,12 +43,12 @@
                             <div class="footer-tittle">
                                 <h4 class="title">Quick Links</h4>
                                 <ul class="listing">
-                                    <li class="single-lsit"><a href="index.html">Home</a></li>
+                                    <li class="single-lsit"><a href="{{ route('homepage') }}">Home</a></li>
                                     <li class="single-lsit">
-                                        <a href="about.html">About Us</a>
+                                        <a href="{{ route('about') }}">About Us</a>
                                     </li>
                                     <li class="single-lsit">
-                                        <a href="contact.html">Contact Us</a>
+                                        <a href="{{ route('contact') }}">Contact Us</a>
                                     </li>
                                 </ul>
                             </div>
@@ -60,20 +60,21 @@
                                 <h4 class="title">Contact</h4>
                                 <ul class="listing">
                                     <li class="single-lsit">
-                                        <a href="#" class="mb-20 d-block">70/A Floor Divo Tower Melbourne,
-                                            Australia</a>
+                                        <a href="#" class="mb-20 d-block">J-3/64B Ground Floor Khirki Extension Malviya Nagar, New Delhi 110017</a>
                                     </li>
                                     <li class="single-lsit">
                                         <a href="#">
                                             <div class="d-flex gap-12">
-                                                <i class="ri-phone-line"></i> (00) +888 123456 789
+                                                <i class="ri-phone-line"></i> +91 9205020273, 9205010273
                                             </div>
                                         </a>
                                     </li>
                                     <li class="single-lsit">
                                         <a href="#">
                                             <div class="d-flex gap-12">
-                                                <i class="ri-mail-line"></i> example@gmail.com
+                                                <i class="ri-mail-line"></i> atravellersepisode@gmail.com
+
+
                                             </div>
                                         </a>
                                     </li>

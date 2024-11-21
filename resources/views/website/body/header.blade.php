@@ -36,10 +36,10 @@
                                 <div class="divider gradient-divider"></div>
                                 <div class="d-flex gap-20 align-items-center">
                                     <p class="pera">
-                                        <a href="login.html" class="signin">Sign In</a>
+                                        <a href="{{ route('login') }}" class="signin">Sign In</a>
                                     </p>
                                     <div class="sign-btn">
-                                        <a href="register.html" class="btn-secondary-sm radius-30">Sign Up</a>
+                                        <a href="{{ route('register') }}" class="btn-secondary-sm radius-30">Sign Up</a>
                                     </div>
                                       <!-- Theme Mode -->
                                       <button class="ToggleThemeButton change-theme-mode m-0 p-0 border-0">
