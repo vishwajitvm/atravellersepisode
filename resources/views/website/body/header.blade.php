@@ -35,12 +35,32 @@
                                 </div>
                                 <div class="divider gradient-divider"></div>
                                 <div class="d-flex gap-20 align-items-center">
+                                    {{-- <p class="pera">
+                                        <a href="{{ route('login') }}" class="signin">Sign In</a>
+                                    </p>
+                                    <div class="sign-btn">
+                                        <a href="{{ route('register') }}" class="btn-secondary-sm radius-30">Sign Up</a>
+                                    </div> --}}
+
+                                    @if (Auth::check()) <!-- If the user is logged in -->
+                                    <p class="pera">
+                                        <a href="{{ route('profile.show') }}" class="signin">Profile</a>
+                                    </p>
+                                    <div class="sign-btn">
+                                        <form method="POST" action="{{ route('logout') }}">
+                                            @csrf
+                                            <button type="submit" class="btn-secondary-sm radius-30">Logout</button>
+                                        </form>
+                                    </div>
+                                @else <!-- If the user is not logged in -->
                                     <p class="pera">
                                         <a href="{{ route('login') }}" class="signin">Sign In</a>
                                     </p>
                                     <div class="sign-btn">
                                         <a href="{{ route('register') }}" class="btn-secondary-sm radius-30">Sign Up</a>
                                     </div>
+                                @endif
+                                
                                       <!-- Theme Mode -->
                                       <button class="ToggleThemeButton change-theme-mode m-0 p-0 border-0">
                                         <i class="ri-sun-line"></i>
@@ -93,25 +113,20 @@
                                                 <a href="{{ route('tour-package') }}" class="single {{ ($route == 'tour-package')?'link-active':'' }}">Tour Package</a>
                                             </li>
                                             
+                                            @auth
+                                            @if(Auth::user()->usertype === 'ADMIN')
                                             <li class="single-list">
-                                                <a href="javascript:void(0)" class="single">Pages <i
+                                                <a href="javascript:void(0)" class="single {{ ($route == 'dashboard')?'link-active':'' }}">{{ Auth::user()->usertype === "ADMIN" ? "Admin" : "User" }} Management <i
                                                         class="ri-arrow-down-s-line"></i></a>
                                                 <ul class="submenu">
                                                     <li class="single-list">
-                                                        <a href="tour-details.html" class="single">Tour
-                                                            Details</a>
+                                                        <a href="{{ route('dashboard') }}" class="single">Dashboard</a>
                                                     </li>
                                                     <li class="single-list">
                                                         <a href="news-details.html" class="single">News
                                                             Details</a>
                                                     </li>
-                                                    <li class="single-list">
-                                                        <a href="destination-details.html"
-                                                            class="single">Destination Details</a>
-                                                    </li>
-                                                    <li class="single-list">
-                                                        <a href="payment.html" class="single">payment</a>
-                                                    </li>
+                                                    
                                                     <li class="single-list">
                                                         <a href="javascript:void(0)" class="single">Login<i
                                                                 class="ri-arrow-right-s-line"></i></a>
@@ -138,22 +153,12 @@
                                                         </ul>
                                                     </li>
 
-                                                    <li class="single-list">
-                                                        <a href="faq.html" class="single">FAQs</a>
-                                                    </li>
-                                                    <li class="single-list">
-                                                        <a href="privacy-policy.html" class="single">privacy
-                                                            policy</a>
-                                                    </li>
-                                                    <li class="single-list">
-                                                        <a href="terms-condition.html"
-                                                            class="single">terms-condition</a>
-                                                    </li>
+                                                    
                                                 </ul>
                                             </li>
-                                            <li class="single-list">
-                                                <a href="news.html" class="single">News</a>
-                                            </li>
+                                            @endif
+                                            @endauth
+                                            
                                             <li class="single-list">
                                                 <a href="{{ route('contact') }}" class="single {{ ($route == 'contact')?'link-active':'' }}">Contact</a>
                                             </li>
