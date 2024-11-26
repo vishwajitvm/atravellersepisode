@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
-            $table->string('usertype')->default("USER");
+            $table->enum('usertype', ['ADMIN', 'USER', 'COORDINATOR', 'PARTNER'])->default('USER');
             $table->string('name');
             $table->integer('phone')->nullable();
             $table->integer('secondary_phone')->nullable();
