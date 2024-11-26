@@ -116,24 +116,17 @@
                                             @auth
                                             @if(Auth::user()->usertype === 'ADMIN')
                                             <li class="single-list">
-                                                <a href="javascript:void(0)" class="single">{{ Auth::user()->usertype === "ADMIN" ? "Admin" : "User" }} Management <i
+                                                <a href="javascript:void(0)" class="single {{ ($route == 'dashboard')?'link-active':'' }}">{{ Auth::user()->usertype === "ADMIN" ? "Admin" : "User" }} Management <i
                                                         class="ri-arrow-down-s-line"></i></a>
                                                 <ul class="submenu">
                                                     <li class="single-list">
-                                                        <a href="tour-details.html" class="single">Tour
-                                                            Details</a>
+                                                        <a href="{{ route('dashboard') }}" class="single">Dashboard</a>
                                                     </li>
                                                     <li class="single-list">
                                                         <a href="news-details.html" class="single">News
                                                             Details</a>
                                                     </li>
-                                                    <li class="single-list">
-                                                        <a href="destination-details.html"
-                                                            class="single">Destination Details</a>
-                                                    </li>
-                                                    <li class="single-list">
-                                                        <a href="payment.html" class="single">payment</a>
-                                                    </li>
+                                                    
                                                     <li class="single-list">
                                                         <a href="javascript:void(0)" class="single">Login<i
                                                                 class="ri-arrow-right-s-line"></i></a>
@@ -160,17 +153,7 @@
                                                         </ul>
                                                     </li>
 
-                                                    <li class="single-list">
-                                                        <a href="faq.html" class="single">FAQs</a>
-                                                    </li>
-                                                    <li class="single-list">
-                                                        <a href="privacy-policy.html" class="single">privacy
-                                                            policy</a>
-                                                    </li>
-                                                    <li class="single-list">
-                                                        <a href="terms-condition.html"
-                                                            class="single">terms-condition</a>
-                                                    </li>
+                                                    
                                                 </ul>
                                             </li>
                                             @endif
