@@ -18,19 +18,31 @@
     <section class="hero-padding-for-three video-overlay position-relative">
         <!-- Video -->
         <div class="hero-bg-video">
-            <video class="hero-slider-video video-cover" 
+            {{-- <video class="hero-slider-video video-cover" 
                 poster="{{asset('frontend/assets/images/hero/hero-three-banner.png')}}" loop autoplay muted>
                 <source src="{{asset('frontend/assets/images/videos/travel1.mp4')}}" type="video/mp4">
                 Your browser does not support the video tag.
+            </video> --}}
+            <video class="hero-slider-video video-cover" 
+                poster="{{ asset('frontend/assets/images/hero/hero-three-banner.png') }}" 
+                loop autoplay muted>
+                @if ($manageHomes && $manageHomes->video) <!-- Check if the video exists in manageHomes -->
+                    <source src="{{ asset( $manageHomes->video) }}" type="video/mp4">
+                @else
+                    <source src="{{ asset('frontend/assets/images/videos/travel1.mp4') }}" type="video/mp4">
+                @endif
+                Your browser does not support the video tag.
             </video>
+
         </div>
         <div class="container">
             <div class="row align-items-center justify-content-between g-4">
                 <div class="col-xl-12">
                     <div class="hero-caption-three position-relative z-3">
                         <h4 class="title wow fadeInUp" data-wow-delay="0.0s">
-                            Welcome to <b>ATravellersEpisode</b> <br>
-                            Pack your bags and check that trek off your bucket list today!
+                            {{ $manageHomes->title ?? "Welcome to ATravellersEpisode
+                            Pack your bags and check that trek off your bucket list today!" }}
+
                         </h4>
                         <p class="pera wow fadeInUp" data-wow-delay="0.1s">
                             <b> Winter  are here and so is the trekking season.❄️ </b> <br>
