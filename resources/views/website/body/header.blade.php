@@ -116,15 +116,26 @@
                                             @auth
                                             @if(Auth::user()->usertype === 'ADMIN')
                                             <li class="single-list">
-                                                <a href="javascript:void(0)" class="single {{ ($route == 'dashboard')?'link-active':'' }}">{{ Auth::user()->usertype === "ADMIN" ? "Admin" : "User" }} Management <i
+                                                <a href="javascript:void(0)" class="single {{ ($route == 'dashboard' || 'admin.manage-home-page')?'link-active':'' }}">{{ Auth::user()->usertype === "ADMIN" ? "Admin" : "User" }} Management <i
                                                         class="ri-arrow-down-s-line"></i></a>
                                                 <ul class="submenu">
                                                     <li class="single-list">
                                                         <a href="{{ route('dashboard') }}" class="single">Dashboard</a>
                                                     </li>
                                                     <li class="single-list">
-                                                        <a href="news-details.html" class="single">News
-                                                            Details</a>
+                                                        <a href="{{ route('admin.manage-home-page') }}" class="single">Manage Home</a>
+                                                    </li>
+                                                    <li class="single-list">
+                                                        <a href="news-details.html" class="single">Manage Tour Type</a>
+                                                    </li>
+                                                    <li class="single-list">
+                                                        <a href="news-details.html" class="single">Manage Tour Detail</a>
+                                                    </li>
+                                                    <li class="single-list">
+                                                        <a href="news-details.html" class="single">Manage Blog</a>
+                                                    </li>
+                                                    <li class="single-list">
+                                                        <a href="news-details.html" class="single">Manage Sponsors</a>
                                                     </li>
                                                     
                                                     <li class="single-list">
