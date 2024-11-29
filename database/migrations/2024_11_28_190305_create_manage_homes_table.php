@@ -14,6 +14,8 @@ return new class extends Migration
         Schema::create('manage_homes', function (Blueprint $table) {
             $table->id();
             $table->string('title'); 
+            $table->string('subtitle')->nullable(); 
+            $table->string('paragraph')->nullable(); 
             $table->string('video');
             $table->enum('status', ['active', 'inactive'])->default('active');
             $table->timestamps();
