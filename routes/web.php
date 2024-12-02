@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\admin\AdminController;
+use App\Http\Controllers\admin\TourCategoryController;
 use App\Http\Controllers\website\HomeController;
 use App\Models\ManageHome;
 use Illuminate\Support\Facades\Route;
@@ -40,6 +41,12 @@ Route::middleware(['auth:sanctum',config('jetstream.auth_session'),'verified',])
     Route::post('/manage-home', [AdminController::class, 'addManageHome'])->name('admin.manage-home-add');
     Route::put('/manage-home/{id}', [AdminController::class, 'editManageHome'])->name('admin.manage-home-edit');
     Route::delete('/manage-home/{id}', [AdminController::class, 'deleteManageHome'])->name('admin.manage-home-delete');
+
+        // Tour Category Routes
+        Route::get('/tour-category', [TourCategoryController::class, 'index'])->name('admin.tour-category.index');
+        Route::post('/tour-category', [TourCategoryController::class, 'store'])->name('admin.tour-category.store');
+        Route::put('/tour-category/{id}', [TourCategoryController::class, 'update'])->name('admin.tour-category.update');
+        Route::delete('/tour-category/{id}', [TourCategoryController::class, 'destroy'])->name('admin.tour-category.destroy');
 
 
 
