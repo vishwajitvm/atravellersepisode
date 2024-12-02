@@ -50,6 +50,8 @@
                                         <th>Slug</th>
                                         <th>Description</th>
                                         <th>Location</th>
+                                        <th>Banner Images</th>
+                                        <th>Banner Videos</th>
                                         <th>Actions</th>
                                     </tr>
                                 </thead>
@@ -60,6 +62,26 @@
                                         <td>{{ $category->slug }}</td>
                                         <td style="max-width: 300px;">{{ $category->description }}</td>
                                         <td>{{ $category->location ?? 'N/A' }}</td>
+                                        <td>
+                                            @if ($category->banner_images)
+                                                @foreach (json_decode($category->banner_images) as $image)
+                                                    <img src="{{ asset($image) }}" alt="Banner Image" style="width: 50px; height: 50px; margin-right: 5px;">
+                                                @endforeach
+                                            @else
+                                                N/A
+                                            @endif
+                                        </td>
+                                        <td>
+                                            @if ($category->banner_videos)
+                                                @foreach (json_decode($category->banner_videos) as $video)
+                                                    <video width="50" height="50" controls>
+                                                        <source src="{{ asset($video) }}" type="video/mp4">
+                                                    </video>
+                                                @endforeach
+                                            @else
+                                                N/A
+                                            @endif
+                                        </td>
                                         <td>
                                             <button class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#categoryModal" onclick="openEditForm({{ json_encode($category) }})">Edit</button>
 
@@ -113,11 +135,13 @@
                             </div>
                             <div class="col-sm-12">
                                 <label for="banner_images" class="form-label">Banner Images</label>
-                                <input type="file" class="form-control" id="banner_images" name="banner_images[]" multiple>
+                                <input type="file" class="form-control" id="banner_images" name="banner_images[]" multiple onchange="previewImages()">
+                                <div id="image-preview" class="mt-2"></div>
                             </div>
                             <div class="col-sm-12">
                                 <label for="banner_videos" class="form-label">Banner Videos</label>
-                                <input type="file" class="form-control" id="banner_videos" name="banner_videos[]" multiple>
+                                <input type="file" class="form-control" id="banner_videos" name="banner_videos[]" multiple onchange="previewVideos()">
+                                <div id="video-preview" class="mt-2"></div>
                             </div>
                         </div>
                     </div>
@@ -138,6 +162,8 @@
             document.getElementById('formMethod').value = 'POST';
             document.getElementById('categoryForm').action = "{{ route('admin.tour-category.store') }}";
             document.getElementById('categoryModalLabel').innerText = "Add New Category";
+            document.getElementById('image-preview').innerHTML = '';
+            document.getElementById('video-preview').innerHTML = '';
         }
 
         function openEditForm(data) {
@@ -149,6 +175,63 @@
             document.getElementById('description').value = data.description;
             document.getElementById('location').value = data.location;
             document.getElementById('categoryModalLabel').innerText = "Edit Category";
+            
+            // Display existing images and videos
+            displayExistingMedia(data.banner_images, 'image-preview');
+            displayExistingMedia(data.banner_videos, 'video-preview');
+        }
+
+        function previewImages() {
+            const files = document.getElementById('banner_images').files;
+            const previewContainer = document.getElementById('image-preview');
+            previewContainer.innerHTML = '';
+            Array.from(files).forEach(file => {
+                const img = document.createElement('img');
+                img.src = URL.createObjectURL(file);
+                img.style.width = '100px';
+                img.style.marginRight = '5px';
+                previewContainer.appendChild(img);
+            });
+        }
+
+        function previewVideos() {
+            const files = document.getElementById('banner_videos').files;
+            const previewContainer = document.getElementById('video-preview');
+            previewContainer.innerHTML = '';
+            Array.from(files).forEach(file => {
+                const video = document.createElement('video');
+                video.width = 100;
+                video.height = 100;
+                const source = document.createElement('source');
+                source.src = URL.createObjectURL(file);
+                video.appendChild(source);
+                previewContainer.appendChild(video);
+            });
+        }
+
+        function displayExistingMedia(mediaData, containerId) {
+            const container = document.getElementById(containerId);
+            container.innerHTML = '';
+            if (mediaData) {
+                const media = JSON.parse(mediaData);
+                media.forEach(item => {
+                    if (containerId === 'image-preview') {
+                        const img = document.createElement('img');
+                        img.src = `{{ asset('${item}') }}`;
+                        img.style.width = '100px';
+                        img.style.marginRight = '5px';
+                        container.appendChild(img);
+                    } else if (containerId === 'video-preview') {
+                        const video = document.createElement('video');
+                        video.width = 100;
+                        video.height = 100;
+                        const source = document.createElement('source');
+                        source.src = `{{ asset('${item}') }}`;
+                        video.appendChild(source);
+                        container.appendChild(video);
+                    }
+                });
+            }
         }
     </script>
 
