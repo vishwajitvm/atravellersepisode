@@ -126,7 +126,7 @@
                                                         <a href="{{ route('admin.manage-home-page') }}" class="single">Manage Home</a>
                                                     </li>
                                                     <li class="single-list">
-                                                        <a href="news-details.html" class="single">Manage Tour Type</a>
+                                                        <a href="{{ route('admin.tour-category.index') }}" class="single">Manage Tour Type</a>
                                                     </li>
                                                     <li class="single-list">
                                                         <a href="news-details.html" class="single">Manage Tour Detail</a>

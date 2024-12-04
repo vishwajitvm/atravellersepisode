@@ -60,7 +60,9 @@
                                     <tr>
                                         <td>{{ $category->name }}</td>
                                         <td>{{ $category->slug }}</td>
-                                        <td style="max-width: 300px;">{{ $category->description }}</td>
+                                        <td style="max-width: 300px;">
+                                            {{ \Illuminate\Support\Str::limit($category->description, 100, '...') }}
+                                        </td>
                                         <td>{{ $category->location ?? 'N/A' }}</td>
                                         <td>
                                             @if ($category->banner_images)
