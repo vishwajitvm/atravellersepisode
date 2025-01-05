@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\admin\AdminController;
 use App\Http\Controllers\admin\TourCategoryController;
+use App\Http\Controllers\admin\TourDetailController;
 use App\Http\Controllers\website\HomeController;
 use App\Models\ManageHome;
 use Illuminate\Support\Facades\Route;
@@ -47,6 +48,13 @@ Route::middleware(['auth:sanctum',config('jetstream.auth_session'),'verified',])
         Route::post('/tour-category', [TourCategoryController::class, 'store'])->name('admin.tour-category.store');
         Route::put('/tour-category/{id}', [TourCategoryController::class, 'update'])->name('admin.tour-category.update');
         Route::delete('/tour-category/{id}', [TourCategoryController::class, 'destroy'])->name('admin.tour-category.destroy');
+
+        // Tour Detail Routes
+        Route::get('/tour-details', [TourDetailController::class, 'index'])->name('tour.details.index');
+        Route::post('/tour-details', [TourDetailController::class, 'store'])->name('tour.details.store');
+        Route::get('/tour-details/{id}/edit', [TourDetailController::class, 'edit'])->name('tour.details.edit');
+        Route::put('/tour-details/{id}', [TourDetailController::class, 'update'])->name('tour.details.update');
+        Route::delete('/tour-details/{id}', [TourDetailController::class, 'destroy'])->name('tour.details.destroy');
 
 
 
